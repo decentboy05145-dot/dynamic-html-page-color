@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="main-body">
+<script src="app.js">app.js</script>
+    <div class="container">
+        <h1>Click a button to change background color</h1>
+        <div class="buttons">
+            <button onclick="changeColor('red')">Red</button>
+            <button onclick="changeColor('blue')">Blue</button>
+            <button onclick="changeColor('green')">Green</button>
+            <button onclick="changeColor('orange')">Orange</button>
+        </div>
+        <button id="reset" onclick="changeColor('#4a90e2')">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
